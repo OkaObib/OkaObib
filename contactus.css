@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-size: 100% 81%;
+    background-color: beige;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.sect {
+    height: 20vh;
+}
+header{
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    
+    padding: 20px 100px;
+    background-image: linear-gradient(rgb(255, 123, 0), rgba(255, 187, 0, 0.849));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.logo {
+    max-width: 120px;
+    border-radius: 60px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #333;
+    background: #fff5d3;
+    border-radius: 40px;
+    padding: 5px 11px;
+}
+header ul li a:hover {
+    color: #333;
+    background: rgba(158, 70, 11, 0.295);
+}
+section {
+    position: relative;
+    height: 70vh;
+    width: 80%;
+    border: 8px solid brown;
+    border-radius: 8px;
+    margin-left: 200px;
+    padding: 20px;
+    display: flex;
+}
+.contact {
+    position: relative;
+    width: 40%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1vh auto 0 auto;
+}
+form {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+button[type=submit] {
+    width: 100%;
+  background-color: #ffbb00;
+  color: white;
+  font-size: large;
+  padding: 14px 20px;
+  margin: 25px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=submit]:hover {
+    background-color: #ff9100;
+}
+.note {
+    width: 100%;
+    height: 10vh;
+}
+.note p {
+    text-align: center;
+}
+.note span {
+    font-weight: 700;
+}
+.contacts {
+    position: relative;
+    border-radius: 10px;
+    width: 30%;
+    height: 30vh;
+    
+}
+
+.contacts h2{
+    padding: 20px;
+}
+.lists h4, ul{
+    padding-top: 5px;
+}
+.list ul li {
+    list-style: none;
+}
+.list ul li a {
+    text-decoration: underline;
+    font-weight: 500;
+    color: rgb(3, 3, 3);
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    padding: 50px 15%;
+    background: rgb(133, 133, 133);
+    color: white;
+    display: flex;
+}
+.footer div {
+    text-align: center;
+}
+.col2 {
+    flex-grow: 2;
+}
+.col2 li {
+    list-style: none;
+}
+.col2 ul{
+    display: inline;
+}
+.col1 a {
+    text-decoration: none;
+    color:#333;
+}
+.col3 a {
+    text-decoration: none;
+    color:#333;
+}
+footer h2 {
+    width: 100%;
+    background: rgb(133, 133, 133);
+}

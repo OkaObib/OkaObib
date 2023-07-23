@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: beige;
+}
+body {
+    background-size: 100% 81%;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 17vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    background-image: linear-gradient(rgb(255, 123, 0), rgba(255, 187, 0, 0.849));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.logo {
+    max-width: 120px;
+    border-radius: 60px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #333;
+    background: #fff5d3;
+    border-radius: 40px;
+    padding: 5px 11px;
+}
+header ul li a:hover {
+    color: #333;
+    background: rgba(158, 70, 11, 0.295);
+}
+.meh {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.meh p {
+    font-size: large;
+}
+.meh .p {
+    font-size: 26px;
+}
+.map {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    padding: 50px 15%;
+    background: rgb(133, 133, 133);
+    color: white;
+    display: flex;
+}
+.footer div {
+    text-align: center;
+}
+.col2 {
+    flex-grow: 2;
+}
+.col2 li {
+    list-style: none;
+}
+.col2 ul{
+    display: inlines;
+}
+.col1 a {
+    text-decoration: none;
+    color:#333;
+}
+.col3 a {
+    text-decoration: none;
+    color:#333;
+}
